@@ -7,7 +7,6 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 export default function Projects({ data }) {
     const projects = data.projects.nodes
     const contact = data.contact.siteMetadata.contact
-    const image = getImage()
     return (
         <Layout>
             <div className={styles.portfolio}>
