@@ -11,7 +11,7 @@ export default function Home({ data }) {
         <div>
           <h2>Design</h2>
           <h3>Develop & Deploy</h3>
-          <p>UX designer & web developer based in Sete Lagoas</p>
+          <p>UX designer & web developer based in Mars</p>
           <Link className={styles.btn} to="/projects">My Portfolio Project</Link>
         </div>
         <StaticImage src="../images/banner.png" alt="site banner" placeholder="blurred" style={{ maxWidth: '100%'}}/>
